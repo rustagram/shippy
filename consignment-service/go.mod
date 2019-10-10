@@ -1,11 +1,11 @@
-module github.com/rustambek96/shippy-shippy-consignment
+module github.com/rustambek96/shippy/consignment-service
 
 go 1.13
 
 require (
-	golang.org/x/net v0.0.0-20191003171128-d98b1b443823 // indirect
-	golang.org/x/sys v0.0.0-20191003212358-c178f38b412c // indirect
-	golang.org/x/text v0.3.2 // indirect
-	google.golang.org/genproto v0.0.0-20191002211648-c459b9ce5143 // indirect
+	github.com/golang/protobuf v1.3.2
+	github.com/micro/go-micro v1.11.1
+	github.com/micro/protobuf v0.0.0-20180321161605-ebd3be6d4fdb
+	golang.org/x/net v0.0.0-20190724013045-ca1201d0de80
 	google.golang.org/grpc v1.24.0
 )
